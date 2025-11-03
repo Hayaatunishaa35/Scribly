@@ -1,0 +1,55 @@
+# Angular frontend
+angular-scribly/node_modules/
+angular-scribly/dist/
+angular-scribly/tmp/
+angular-scribly/out-tsc/
+angular-scribly/bazel-out/
+angular-scribly/.angular/
+angular-scribly/.vscode/
+angular-scribly/.idea/
+angular-scribly/.sass-cache/
+angular-scribly/.history/
+angular-scribly/connect.lock
+angular-scribly/coverage/
+angular-scribly/libpeerconnection.log
+angular-scribly/testem.log
+angular-scribly/typings/
+angular-scribly/.DS_Store
+angular-scribly/Thumbs.db
+
+# Spring Boot backend
+scribly/target/
+scribly/.idea/
+scribly/.settings/
+scribly/.classpath
+scribly/.project
+scribly/.apt_generated
+scribly/.factorypath
+scribly/.sts4-cache
+scribly/.mvn/wrapper/maven-wrapper.jar
+scribly/nbproject/private/
+scribly/nbbuild/
+scribly/dist/
+scribly/nbdist/
+scribly/nb-gradle/
+scribly/build/
+!scribly/**/src/main/**/build/
+!scribly/**/src/test/**/build/
+
+# Environment & Certificates
+*.env
+*.p12
+*.key
+*.crt
+
+# General 
+.DS_Store
+Thumbs.db
+*.log
+
+# Nested gits (ignore)
+scribly/.git/
+angular-scribly/.git/
+
+# Starter files
+starter_files
